@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document Zizu</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- ini internal css-->
+    <style>
+        h1 {
+            background-color: lightblue;
+            border: solid;
+        }
+    </style>
+
+    <!-- ini eksternal css (link)-->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <header style="display: flex;
+    flex-direction: row;
+    justify-content: space-between;"
+    >
+      <h1>Ini Title kiri</h1>
+      <h1>Ini Title kanan</h1>
+    </header>
+
+    <article>
+        <!-- ini inline css-->
+      <p style="background-color: lightpink;">Ini Kontennya</p>
+
+      <header>
+        <h2>Ini Title 2</h2>
+      </header>
+
+      <!-- ini inline js -->
+      <!-- ini saklar -->
+       <button onClick="lampu(0)">Saklar</button>
+    </article>
+
+    <script>
+        function lampu(n){
+            if (n == 0) {
+                alert('Lampunya Menyala Abangku!')
+            }
+        }
+    </script>
+  </body>
 </html>
