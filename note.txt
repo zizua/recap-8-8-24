@@ -1,0 +1,15 @@
+note revoU
+contoh algoritma
+
+# function onClick
+# algoritma menyalakan lampu: 
+1. menuju ruangan tempat saklar lampu
+2. menekan saklar lampu
+3. lampunya menyala
+
+# function if
+# algoritma menanam cabai: 
+1. beli biji cabai
+2. cangkul tanah di sawah
+3. masukkan biji cabai ke tanah hasil cangkul di sawah
+4. tanahnya ditutup dan tunggu hasilnya elagi menyirami secara bertahap
